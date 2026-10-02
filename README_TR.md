@@ -1,19 +1,31 @@
 <div align="center">
 
-<!-- Banner Başlık -->
-<img src="https://raw.githubusercontent.com/ercnenesDev/ercnenesDev/main/assets/banner.svg" alt="Yusuf Enes Ercan — Full-Stack Geliştirici &amp; Oyun Sistemleri Mimarı" width="100%" />
-
-<!-- Dil Seçimi & Rozetler -->
+<!-- Dil Seçimi Butonları (Türkçe / İngilizce) -->
 <p align="center">
-  <a href="README.md">English</a> | <b>Türkçe</b>
+  <a href="README_TR.md">
+    <img src="https://img.shields.io/badge/T%C3%BCrk%C3%A7e_Versiyon-%F0%9F%87%B9%F0%9F%87%B7-E11D48?style=for-the-badge" alt="Türkçe Versiyon" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="README.md">
+    <img src="https://img.shields.io/badge/English_Version-%F0%9F%87%AC%F0%9F%87%A7-2563EB?style=for-the-badge" alt="English Version" />
+  </a>
 </p>
+
+<!-- Öncü Proje Görsel Bannerı (Redoubt & Araba CRM-MLS) -->
+<img src="https://raw.githubusercontent.com/ercnenesDev/ercnenesDev/main/assets/banner.png" alt="Yusuf Enes Ercan — Redoubt &amp; Araba CRM-MLS" width="100%" />
+
+<br/>
+
+<!-- Başlık ve Ünvan -->
+# ⚔️ Yusuf Enes Ercan 🏎️
+### Oyun Sistemleri Mimarı (Unity &amp; C#) · Full-Stack Mühendisi (.NET 8 &amp; React)
 
 <!-- Daktilo Animasyonu -->
 <a href="https://github.com/ercnenesDev">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=620&lines=Full-Stack+Geli%C5%9Ftirici+(.NET+%2F+C%23+%2B+React+%2F+Next.js);Oyun+Geli%C5%9Ftirici+(Unity+%2B+Clean+Architecture);Mimari+Odakl%C4%B1+%7C+198%2B+Unit+Test+Do%C4%9Frulamal%C4%B1+%C3%87ekirdek;Kurumsal+CRM%2C+IK+%26+Stok+Y%C3%B6netim+Sistemleri" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=660&lines=Oyun+Geli%C5%9Ftirici+(Redoubt+Krall%C4%B1k+RPG+%2B+198+Birim+Test);Full-Stack+M%C3%BChendisi+(Araba+CRM-MLS+%2B+PTS+%2B+Stok+Sistemleri);Oyun+Sim%C3%BClasyon+Motorlar%C4%B1+ile+%C3%96l%C3%A7eklenebilir+Web+Mimarisi;.NET+8+%7C+C%23+%7C+Unity+%7C+React+%7C+Next.js+%7C+TypeScript" alt="Typing SVG" />
 </a>
 
-<br/>
+<br/><br/>
 
 <!-- İletişim Rozetleri -->
 <p align="center">

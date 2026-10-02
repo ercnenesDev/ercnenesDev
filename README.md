@@ -1,19 +1,31 @@
 <div align="center">
 
-<!-- Banner Header -->
-<img src="https://raw.githubusercontent.com/ercnenesDev/ercnenesDev/main/assets/banner.svg" alt="Yusuf Enes Ercan — Full-Stack Developer &amp; Game Systems Architect" width="100%" />
-
-<!-- Language Toggle & Badges -->
+<!-- Language Toggle Buttons (Bilingual: TR / EN) -->
 <p align="center">
-  <b>English</b> | <a href="README_TR.md">Türkçe</a>
+  <a href="README_TR.md">
+    <img src="https://img.shields.io/badge/T%C3%BCrk%C3%A7e_Versiyon-%F0%9F%87%B9%F0%9F%87%B7-E11D48?style=for-the-badge" alt="Türkçe Versiyon" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="README.md">
+    <img src="https://img.shields.io/badge/English_Version-%F0%9F%87%AC%F0%9F%87%A7-2563EB?style=for-the-badge" alt="English Version" />
+  </a>
 </p>
+
+<!-- Epic Flagship Project Artwork Banner (Redoubt & Araba CRM-MLS) -->
+<img src="https://raw.githubusercontent.com/ercnenesDev/ercnenesDev/main/assets/banner.png" alt="Yusuf Enes Ercan — Redoubt &amp; Araba CRM-MLS" width="100%" />
+
+<br/>
+
+<!-- Title & Identity -->
+# ⚔️ Yusuf Enes Ercan 🏎️
+### Game Systems Architect (Unity &amp; C#) · Full-Stack Engineer (.NET 8 &amp; React)
 
 <!-- Typing Animation -->
 <a href="https://github.com/ercnenesDev">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=620&lines=Full-Stack+Developer+(.NET+%2F+C%23+%2B+React+%2F+Next.js);Game+Developer+(Unity+%2B+Clean+Architecture);Architecture-First+%7C+198%2B+Unit-Tested+Core+Systems;Enterprise+CRM%2C+HR+%26+Stock+Management+Platforms" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=660&lines=Game+Developer+(Redoubt+Kingdom+RPG+%2B+198+Unit+Tests);Full-Stack+Developer+(Araba+CRM-MLS+%2B+PTS+%2B+Stock+Systems);Bridging+Game+Simulation+Engines+with+Scalable+Web+Platforms;.NET+8+%7C+C%23+%7C+Unity+%7C+React+%7C+Next.js+%7C+TypeScript" alt="Typing SVG" />
 </a>
 
-<br/>
+<br/><br/>
 
 <!-- Contact & Status Badges -->
 <p align="center">
