@@ -11,21 +11,10 @@
   </a>
 </p>
 
-<!-- Epic Flagship Project Artwork Banner (Redoubt & Araba CRM-MLS) -->
-<img src="https://raw.githubusercontent.com/ercnenesDev/ercnenesDev/main/assets/banner.png" alt="Yusuf Enes Ercan — Redoubt &amp; Araba CRM-MLS" width="100%" />
+<!-- Executive Hero Vector Card (Alper Temiz Inspiration) -->
+<img src="https://raw.githubusercontent.com/ercnenesDev/ercnenesDev/main/assets/hero/hero-en.svg" width="100%" alt="Yusuf Enes Ercan — Full-Stack Developer &amp; Game Systems Architect" />
 
 <br/>
-
-<!-- Title & Identity -->
-# ⚔️ Yusuf Enes Ercan 🏎️
-### Game Systems Architect (Unity &amp; C#) · Full-Stack Engineer (.NET 8 &amp; React)
-
-<!-- Typing Animation -->
-<a href="https://github.com/ercnenesDev">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=660&lines=Game+Developer+(Redoubt+Kingdom+RPG+%2B+198+Unit+Tests);Full-Stack+Developer+(Araba+CRM-MLS+%2B+PTS+%2B+Stock+Systems);Bridging+Game+Simulation+Engines+with+Scalable+Web+Platforms;.NET+8+%7C+C%23+%7C+Unity+%7C+React+%7C+Next.js+%7C+TypeScript" alt="Typing SVG" />
-</a>
-
-<br/><br/>
 
 <!-- Contact & Status Badges -->
 <p align="center">

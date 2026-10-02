@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 544" width="1200" height="544" role="img" aria-label="Yusuf Enes Ercan — Full-Stack Developer &amp; Game Systems Architect" preserveAspectRatio="xMidYMid meet">
+  <title>Yusuf Enes Ercan — Full-Stack Developer &amp; Game Systems Architect</title>
+  <defs>
+    <!-- Dark Tech Gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="45%" stop-color="#0E1626"/>
+      <stop offset="100%" stop-color="#141C30"/>
+    </linearGradient>
+
+    <!-- Brand Cyan-to-Amber Accent Bar -->
+    <linearGradient id="accentBar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="45%" stop-color="#1E293B" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1E293B" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Card Backgrounds -->
+    <linearGradient id="cardSurf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#151D2D"/>
+      <stop offset="100%" stop-color="#0F1726"/>
+    </linearGradient>
+
+    <linearGradient id="cardActive" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1B263B"/>
+      <stop offset="100%" stop-color="#111B2C"/>
+    </linearGradient>
+
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#1E293B" stroke-width="1" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .f{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+    .m{font-family:"JetBrains Mono","Fira Code",Consolas,monospace}
+    .name{font-size:52px;font-weight:800;letter-spacing:2px;fill:#F8FAFC}
+    .t1{font-size:22px;font-weight:600;letter-spacing:.4px;fill:#38BDF8}
+    .t2{font-size:18px;font-weight:500;letter-spacing:.6px;fill:#FBBF24}
+    .body{font-size:19px;font-weight:400;fill:#94A3B8}
+    .ph{font-size:14px;font-weight:700;letter-spacing:2px;fill:#64748B}
+    .bt{font-size:15.5px;font-weight:700;letter-spacing:.2px;fill:#E2E8F0}
+    .sub{font-size:12.5px;font-weight:500;fill:#94A3B8}
+    .lbl{font-size:13px;font-weight:700;letter-spacing:1.5px;fill:#64748B}
+    .ct{font-size:14.5px;font-weight:600;fill:#CBD5E1}
+    .rs{font-size:14px;font-weight:800;letter-spacing:1px;fill:#34D399}
+
+    .pulse { animation: pulse 3s ease-in-out infinite alternate; }
+    @keyframes pulse { 0% { opacity: 0.4; } 100% { opacity: 1; } }
+
+    .glow-line { animation: flow 8s linear infinite; }
+    @keyframes flow { 0% { stroke-dashoffset: 400; } 100% { stroke-dashoffset: 0; } }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="544" fill="#0A0E17"/>
+  <rect width="1200" height="544" fill="url(#bg)"/>
+  <rect width="1200" height="544" fill="url(#grid)"/>
+
+  <!-- Tech Corner Markers -->
+  <g stroke="#334155" stroke-width="1.5" fill="none" opacity=".85">
+    <path d="M40 36 H66 M40 36 V62"/>
+    <path d="M1160 36 H1134 M1160 36 V62"/>
+    <path d="M40 508 H66 M40 508 V482"/>
+    <path d="M1160 508 H1134 M1160 508 V482"/>
+  </g>
+
+  <!-- ================= SOL: KİMLİK & MİMARİ VİZYON ================= -->
+  <g class="f">
+    <!-- Sol Dikey Çizgi Vurgusu -->
+    <rect x="64" y="76" width="4" height="106" rx="2" fill="url(#accentBar)"/>
+
+    <!-- İsim & Roller -->
+    <text class="name" x="96" y="118">YUSUF ENES ERCAN</text>
+    <text class="t1" x="96" y="152">Full-Stack Geliştirici &amp; Oyun Sistemleri Mimarı</text>
+    <text class="t2" x="96" y="178">.NET 8 · C# · Unity · React · Clean Architecture</text>
+
+    <!-- Ayırıcı Çizgi -->
+    <rect x="96" y="201" width="704" height="1.5" fill="url(#rule)"/>
+
+    <!-- Açıklama / Mühendislik Yaklaşımı -->
+    <text class="body" x="96" y="235">Oyun simülasyon motorları, temiz mimari ve yüksek ölçekli kurumsal</text>
+    <text class="body" x="96" y="260">web sistemleri (İnsan Kaynakları, Stok Envanter, Otomotiv CRM/MLS) geliştiriyorum.</text>
+    <text class="body" x="96" y="295">Karmaşık domain mantığını saf C# ile harici bağımlılıklardan arındırıyor,</text>
+    <text class="body" x="96" y="320">198 birim test ile deterministik ve kırılmaz sistemlere dönüştürüyorum.</text>
+  </g>
+
+  <!-- ================= SAĞ: MÜHENDİSLİK ODAĞI (2x2 KARTLAR) ================= -->
+  <g class="f">
+    <text class="m ph" x="848" y="84">MÜHENDİSLİK ODAĞI</text>
+    <rect x="848" y="90" width="304" height="1" fill="#334155"/>
+
+    <!-- KART 1: Oyun Mimarisi (Redoubt) -->
+    <g>
+      <rect x="848" y="102" width="144" height="100" rx="9" fill="url(#cardSurf)" stroke="#38BDF8" stroke-width="1.2"/>
+      <!-- Gamepad / Castle Icon -->
+      <g transform="translate(864, 116)" stroke="#38BDF8" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="5" width="20" height="14" rx="4"/>
+        <path d="M6 12h4M8 10v4M16 11h.01M18 13h.01"/>
+      </g>
+      <text class="bt" x="864" y="166">Redoubt Motoru</text>
+      <text class="sub" x="864" y="186">Unity · Saf C# Core</text>
+    </g>
+
+    <!-- KART 2: Full-Stack Web (.NET & React) -->
+    <g>
+      <rect x="1008" y="102" width="144" height="100" rx="9" fill="url(#cardSurf)" stroke="#334155" stroke-width="1.1"/>
+      <!-- Layers / Server Icon -->
+      <g transform="translate(1024, 116)" stroke="#818CF8" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M2 12l10 5 10-5M2 17l10 5 10-5M12 2l10 5-10 5-10-5z"/>
+      </g>
+      <text class="bt" x="1024" y="166">Full-Stack Web</text>
+      <text class="sub" x="1024" y="186">.NET 8 · React · SQL</text>
+    </g>
+
+    <!-- KART 3: Otomotiv & MLS (Araba CRM) -->
+    <g>
+      <rect x="848" y="214" width="144" height="100" rx="9" fill="url(#cardSurf)" stroke="#334155" stroke-width="1.1"/>
+      <!-- Car / Automotive Icon -->
+      <g transform="translate(864, 228)" stroke="#F59E0B" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 14l2-6h12l2 6M3 14h18v4a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-1H8v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4z"/>
+        <circle cx="7" cy="15" r="1.5"/>
+        <circle cx="17" cy="15" r="1.5"/>
+      </g>
+      <text class="bt" x="864" y="278">Araba CRM-MLS</text>
+      <text class="sub" x="864" y="298">Oto İlan &amp; Bayi Portalı</text>
+    </g>
+
+    <!-- KART 4: Yazılım Kalitesi (198 Test) -->
+    <g>
+      <rect x="1008" y="214" width="144" height="100" rx="9" fill="url(#cardSurf)" stroke="#10B981" stroke-width="1.2"/>
+      <!-- Shield / Checkmark Icon -->
+      <g transform="translate(1024, 228)" stroke="#10B981" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+        <path d="M9 12l2 2 4-4"/>
+      </g>
+      <text class="bt" x="1024" y="278">198 Birim Test</text>
+      <text class="sub" x="1024" y="298">Clean Arch · TDD</text>
+    </g>
+  </g>
+
+  <!-- ================= ALT: MÜHENDİSLİK İŞ AKIŞI HATTI ================= -->
+  <g class="f">
+    <!-- Ana İz Çizgisi -->
+    <line x1="64" y1="392" x2="1136" y2="392" stroke="#1E293B" stroke-width="1.6"/>
+    <line x1="108" y1="392" x2="1054" y2="392" stroke="#0284C7" stroke-width="2.5" stroke-linecap="round" opacity=".85"/>
+
+    <!-- Başlangıç / Bitiş İşaretleri -->
+    <path d="M64 384 v16" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1050 384 v16 M1056 384 v16" stroke="#10B981" stroke-width="2" stroke-linecap="round"/>
+
+    <text class="m lbl" x="64" y="416">BAŞLANGIÇ</text>
+    <text class="m lbl" x="1054" y="416" text-anchor="middle">TAMAMLANDI</text>
+
+    <!-- Adım 1: Alan Mimarisi & Saf C# Core -->
+    <g transform="translate(76, 444)">
+      <circle cx="10" cy="10" r="10" fill="#0C1B2B" stroke="#38BDF8" stroke-width="1.2"/>
+      <path d="M7 10l2 2 4-4" stroke="#38BDF8" stroke-width="1.4" fill="none"/>
+      <text class="ct" x="28" y="15">Alan Mimarisi (Saf C# Core)</text>
+    </g>
+
+    <!-- Adım 2: Simülasyon & Oyun Motoru (Redoubt) -->
+    <g transform="translate(330, 444)">
+      <circle cx="10" cy="10" r="10" fill="#0C1B2B" stroke="#818CF8" stroke-width="1.2"/>
+      <path d="M7 10l2 2 4-4" stroke="#818CF8" stroke-width="1.4" fill="none"/>
+      <text class="ct" x="28" y="15">Deterministik Savaş Simülatörü</text>
+    </g>
+
+    <!-- Adım 3: Kurumsal Web & Otomotiv MLS -->
+    <g transform="translate(620, 444)">
+      <circle cx="10" cy="10" r="10" fill="#0C1B2B" stroke="#F59E0B" stroke-width="1.2"/>
+      <path d="M7 10l2 2 4-4" stroke="#F59E0B" stroke-width="1.4" fill="none"/>
+      <text class="ct" x="28" y="15">Kurumsal Dağıtım &amp; CRM-MLS</text>
+    </g>
+
+    <!-- Adım 4: 198 Test İle Doğrulanmış Ürün -->
+    <g transform="translate(930, 444)">
+      <circle cx="10" cy="10" r="10" fill="#06261C" stroke="#10B981" stroke-width="1.5"/>
+      <path d="M6 10l3 3 5-5" stroke="#10B981" stroke-width="1.6" fill="none"/>
+      <text class="rs" x="28" y="15">198 TESTLİ KARARLI ÜRÜN</text>
+    </g>
+  </g>
+</svg>

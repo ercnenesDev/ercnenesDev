@@ -11,21 +11,10 @@
   </a>
 </p>
 
-<!-- Öncü Proje Görsel Bannerı (Redoubt & Araba CRM-MLS) -->
-<img src="https://raw.githubusercontent.com/ercnenesDev/ercnenesDev/main/assets/banner.png" alt="Yusuf Enes Ercan — Redoubt &amp; Araba CRM-MLS" width="100%" />
+<!-- Vektörel Yönetici Hero Kartı (Alper Temiz İlhamı) -->
+<img src="https://raw.githubusercontent.com/ercnenesDev/ercnenesDev/main/assets/hero/hero-tr.svg" width="100%" alt="Yusuf Enes Ercan — Full-Stack Geliştirici &amp; Oyun Sistemleri Mimarı" />
 
 <br/>
-
-<!-- Başlık ve Ünvan -->
-# ⚔️ Yusuf Enes Ercan 🏎️
-### Oyun Sistemleri Mimarı (Unity &amp; C#) · Full-Stack Mühendisi (.NET 8 &amp; React)
-
-<!-- Daktilo Animasyonu -->
-<a href="https://github.com/ercnenesDev">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=660&lines=Oyun+Geli%C5%9Ftirici+(Redoubt+Krall%C4%B1k+RPG+%2B+198+Birim+Test);Full-Stack+M%C3%BChendisi+(Araba+CRM-MLS+%2B+PTS+%2B+Stok+Sistemleri);Oyun+Sim%C3%BClasyon+Motorlar%C4%B1+ile+%C3%96l%C3%A7eklenebilir+Web+Mimarisi;.NET+8+%7C+C%23+%7C+Unity+%7C+React+%7C+Next.js+%7C+TypeScript" alt="Typing SVG" />
-</a>
-
-<br/><br/>
 
 <!-- İletişim Rozetleri -->
 <p align="center">
