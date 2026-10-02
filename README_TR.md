@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Banner Başlık -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=15,23,42,88,28,135&height=220&section=header&text=Yusuf%20Enes%20Ercan&fontSize=42&fontAlignY=38&desc=Full-Stack%20Geli%C5%9Ftirici%20%7C%20Oyun%20Sistemleri%20Mimarı%20%7C%20.NET%20%26%20Unity&descAlignY=60&descAlign=50&fontColor=ffffff&descColor=93c5fd" width="100%" alt="Yusuf Enes Ercan Banner" />
+<img src="https://raw.githubusercontent.com/ercnenesDev/ercnenesDev/main/assets/banner.svg" alt="Yusuf Enes Ercan — Full-Stack Geliştirici &amp; Oyun Sistemleri Mimarı" width="100%" />
 
 <!-- Dil Seçimi & Rozetler -->
 <p align="center">

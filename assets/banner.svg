@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E1B4B"/>
+    </linearGradient>
+
+    <!-- Terminal Gradient -->
+    <linearGradient id="terminalGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0B0F19"/>
+    </linearGradient>
+
+    <!-- Progress Bar Gradient -->
+    <linearGradient id="accentBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <!-- Card Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .glow-cyan { animation: pulseCyan 4s ease-in-out infinite alternate; }
+    .glow-purple { animation: pulsePurple 5s ease-in-out infinite alternate; }
+    @keyframes pulseCyan { 0% { opacity: 0.25; } 100% { opacity: 0.55; } }
+    @keyframes pulsePurple { 0% { opacity: 0.2; } 100% { opacity: 0.5; } }
+
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+    .check-anim { animation: checkPop 6s ease-in-out infinite; }
+    @keyframes checkPop {
+      0%, 15% { opacity: 0.3; }
+      20%, 90% { opacity: 1; }
+      95%, 100% { opacity: 0.3; }
+    }
+
+    .fill-bar {
+      transform-box: fill-box;
+      transform-origin: left center;
+      animation: barProgress 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    @keyframes barProgress {
+      0% { transform: scaleX(0.1); }
+      30% { transform: scaleX(0.65); }
+      60% { transform: scaleX(1); }
+      90% { transform: scaleX(1); }
+      100% { transform: scaleX(0.1); }
+    }
+  </style>
+
+  <!-- Canvas Frame -->
+  <rect width="900" height="240" rx="14" fill="url(#bgGradient)"/>
+  <rect width="898" height="238" x="1" y="1" rx="13" fill="none" stroke="#334155" stroke-opacity="0.5"/>
+
+  <!-- Ambient Light Orbs -->
+  <circle class="glow-cyan" cx="130" cy="50" r="110" fill="#0284C7" filter="blur(40px)" opacity="0.35"/>
+  <circle class="glow-purple" cx="800" cy="180" r="100" fill="#7C3AED" filter="blur(40px)" opacity="0.3"/>
+
+  <!-- LEFT SECTION: Identity & Roles -->
+  <!-- Status Pill -->
+  <g transform="translate(46, 28)">
+    <rect width="210" height="24" rx="12" fill="#1E293B" stroke="#38BDF8" stroke-opacity="0.4"/>
+    <circle cx="12" cy="12" r="4" fill="#10B981"/>
+    <text x="24" y="16" font-size="11" font-weight="600" fill="#38BDF8" letter-spacing="0.5">FULL-STACK &amp; GAME DEV</text>
+  </g>
+
+  <!-- Name -->
+  <text x="46" y="98" font-size="40" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5">Yusuf Enes Ercan</text>
+
+  <!-- Primary Subtitle -->
+  <text x="48" y="132" font-size="18" font-weight="600" fill="#38BDF8">Full-Stack Developer &amp; Game Systems Architect</text>
+
+  <!-- Secondary Stack Summary -->
+  <text x="48" y="158" font-size="14" font-weight="400" fill="#94A3B8">.NET 8 · C# · Unity · Clean Architecture · React / Next.js</text>
+
+  <!-- Terminal Style Metric Line -->
+  <g transform="translate(48, 178)">
+    <rect width="395" height="34" rx="6" fill="#0F172A" stroke="#334155" stroke-opacity="0.6"/>
+    <text x="14" y="22" font-family="'Fira Code', Consolas, monospace" font-size="13" fill="#A5B4FC">$ dotnet test</text>
+    <text x="125" y="22" font-family="'Fira Code', Consolas, monospace" font-size="13" fill="#10B981">✓ 198 Core tests passed</text>
+    <rect class="cursor" x="315" y="10" width="7" height="14" fill="#38BDF8"/>
+  </g>
+
+  <!-- RIGHT SECTION: System Overview Card -->
+  <g transform="translate(486, 26)">
+    <!-- Window Container -->
+    <rect width="370" height="188" rx="10" fill="url(#terminalGrad)" stroke="url(#borderGrad)" stroke-width="1.5"/>
+
+    <!-- Window Header -->
+    <rect width="370" height="34" rx="10" fill="#161F30"/>
+    <rect width="370" height="1" y="34" fill="#334155" opacity="0.6"/>
+    <circle cx="18" cy="17" r="4.5" fill="#EF4444"/>
+    <circle cx="34" cy="17" r="4.5" fill="#F59E0B"/>
+    <circle cx="50" cy="17" r="4.5" fill="#10B981"/>
+    <text x="185" y="22" font-family="'Fira Code', Consolas, monospace" font-size="11.5" fill="#94A3B8" text-anchor="middle">Redoubt.Core.Architecture</text>
+
+    <!-- Checklist Items -->
+    <g transform="translate(18, 48)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">
+      <!-- Item 1 -->
+      <g transform="translate(0, 14)">
+        <circle cx="7" cy="0" r="7" fill="#065F46" fill-opacity="0.4"/>
+        <path class="check-anim" d="M3.5 0 L6 2.5 L10.5 -2.5" fill="none" stroke="#10B981" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="22" y="4" fill="#E2E8F0">Decoupled C# Domain Core</text>
+      </g>
+
+      <!-- Item 2 -->
+      <g transform="translate(0, 36)">
+        <circle cx="7" cy="0" r="7" fill="#065F46" fill-opacity="0.4"/>
+        <path class="check-anim" d="M3.5 0 L6 2.5 L10.5 -2.5" fill="none" stroke="#10B981" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="22" y="4" fill="#E2E8F0">198 Unit-Tested Services</text>
+      </g>
+
+      <!-- Item 3 -->
+      <g transform="translate(0, 58)">
+        <circle cx="7" cy="0" r="7" fill="#065F46" fill-opacity="0.4"/>
+        <path class="check-anim" d="M3.5 0 L6 2.5 L10.5 -2.5" fill="none" stroke="#10B981" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="22" y="4" fill="#E2E8F0">Enterprise PTS &amp; Stock Systems</text>
+      </g>
+
+      <!-- Item 4 -->
+      <g transform="translate(0, 80)">
+        <circle cx="7" cy="0" r="7" fill="#065F46" fill-opacity="0.4"/>
+        <path class="check-anim" d="M3.5 0 L6 2.5 L10.5 -2.5" fill="none" stroke="#10B981" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="22" y="4" fill="#E2E8F0">Full-Stack .NET 8 &amp; React / Next.js</text>
+      </g>
+    </g>
+
+    <!-- Bottom Progress Track -->
+    <rect x="18" y="162" width="334" height="6" rx="3" fill="#1E293B"/>
+    <rect class="fill-bar" x="18" y="162" width="334" height="6" rx="3" fill="url(#accentBar)"/>
+  </g>
+</svg>
